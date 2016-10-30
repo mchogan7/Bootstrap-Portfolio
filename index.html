@@ -1,62 +1,62 @@
 <!doctype html>
-
 <html>
 
-  <head>
-
+<head>
     <title>Mills Hogan Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta charset="utf-8" />
-  </head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+</head>
 
-  <body>
-	<div class="header">
-		<a href="index.html">
-		<div class="MyLogo">
-		<h1>Mills Hogan</h1>
-		</div>
-		</a>
-
-		<div class="nav">
-			<a class="menu" href="index.html">About</a>
-			<a class="menu" href="portfolio.html">Portfolio</a>
-			<a class="menu" href="contact.html">Contact</a>
-		</div>
-	</div>
-	<div class="mobileNav">
-			<a class="menu" href="index.html">About</a>
-			<a class="menu" href="portfolio.html">Portfolio</a>
-			<a class="menu" href="contact.html">Contact</a>
-	</div>
-
-		<main>
-			<div class="mainContainer">
-				<div class="heading">About Me</div>
-				<div class="divider"></div>
-				<img alt="My Picture" class="myImage" src="images/NotMeYet.jpg">
-				<p class="mainText">My name is Mills Hogan. I have been a graphic designer for nearly 15 years. I specialize in mostly print and packaging, but have designed for nearly every medium imaginable. I have an insatiable urge to create and tinker. I am finally taking the plunge into becoming a full stack web developer!
-				When i'm not experimenting with design or coding, I spend my time woodworking, cycling or seeing music around Austin, TX.</p>
-				
-			</div>
-
-			<div class="connectContainer">
-				<div class="connectHeading">
-					<h3>Connect with Me</h3>
-				</div>
-				
-					<a href="https://github.com/mchogan7"><img alt="github" class="icons" src="images/github.png"></a>
-					<a href="https://www.linkedin.com/in/mills-hogan-12767712b"><img alt="linkedin" class="icons" src="images/linkedin.png"></a>
-					<a href="http://stackoverflow.com/users/6951469/m-hogan"><img alt="stack overflow" class="icons" src="images/stackoverflow.png"> </a>
-					
-
-			</div>
-		</main>
-
-		<div class="footer">
-			&copy; Copyright Mills Hogan 2016
-		</div>
-  </body>
+<body>
+    <header>
+        <nav class="navbar navbar-default greenBox">
+            <div class="container">
+                <div class="navbar-header greenBox">
+                    <a class="navbar-brand whiteText tex" href="index.html">Mills Hogan</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="col-md-8 whitebg">
+                <h1>About Me</h1>
+                <div class="row">
+                    <div class="col-md-3">
+                            <img src="images/NotMeYet.jpg" class="img-responsive" />
+                    </div>
+                    <div class="col-md-9">
+                        <p>My name is Mills Hogan. I have been a graphic designer for nearly 15 years. I specialize in mostly print and packaging, but have designed for nearly every medium imaginable. I have an insatiable urge to create and tinker. I am finally taking the plunge into becoming a full stack web developer! When I'm not experimenting with design or coding, I spend my time woodworking, cycling or seeing music around Austin, TX.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Connect with Me
+                    </div>
+                    <div class="panel-body">
+                     <a href="https://github.com/mchogan7"><img alt="github" src="images/github.png" class="img-responsive col-xs-4"></a>
+                    <a href="https://www.linkedin.com/in/mills-hogan-12767712b"><img alt="linkedin" src="images/linkedin.png" class="img-responsive col-xs-4"></a>
+                    <a href="http://stackoverflow.com/users/6951469/m-hogan"><img alt="stack overflow" src="images/stackoverflow.png" class="img-responsive col-xs-4"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </main>
+        <footer class="navbar-fixed-bottom myFooter">
+      <div class="container text-center">
+        <p>&copy; Copyright Mills Hogan 2016</p>
+      </div>
+    </footer>
+</body>
 
 </html>
